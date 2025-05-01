@@ -1,0 +1,64 @@
+/** CSS indice masa corporal
+Autor: Andres Forero
+Fecha: 30/abril/2025
+*/
+/**
+Establesco la fuente en time new roman,en el body agrego color al fondo
+en el h1 que esta en el header le pongo sombra y centro el texto
+en todos los p del html aumento el tamaño de la fuente y le agrego negrilla
+*/
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color:azure;
+}
+header h1{
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+/**
+El seccion es el contenedor principal donde se va a estar todo el programa
+se ajusta el borde y el fondo
+*/
+section{
+    border-radius: 2rem;
+    background:
+    linear-gradient(rgb(255, 255, 255,0.5),rgb(255, 255, 255,0.3)),url(/img/fondo.jpg);
+    box-sizing: content-box;
+    border: 2px outset black;
+    box-sizing: content-box;
+    .div-superior{
+        text-align: center;
+        .formulario{
+            display: grid;
+            grid-template-columns: 50% 30%;
+            .form-izquierda{
+                margin-right: -13rem;
+            }
+        }
+    }
+    .div-inferior{
+        text-align: center;
+        img{
+            max-width: 18rem;
+        }
+    }
+}
+/**
+le agrego el estilo que deseo al los dos botones que va a tener la app 
+*/
+button{
+    width: 5.5rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+}
