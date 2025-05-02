@@ -45,7 +45,7 @@ botoncalcular.addEventListener("click",(e) =>{
         }
         else if (imc > 25 && imc < 30) {
             salud = "tiene sobrepeso";
-            imagen = "./img/sobrepeso.png";
+            imagen = "./img/sobrepeso.jpg";
         }
         else{
             salud = "tiene obesidad";
